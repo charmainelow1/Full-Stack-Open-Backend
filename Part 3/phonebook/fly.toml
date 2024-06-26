@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for phonebook-red-sunset-3976 on 2024-06-25T18:21:10+08:00
+# fly.toml app configuration file generated for phonebook-dry-grass-9581 on 2024-06-26T15:37:18+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'phonebook-red-sunset-3976'
+app = 'phonebook-dry-grass-9581'
 primary_region = 'sin'
 
 [build]
 
 [env]
-  PORT = "3000" # add this
+  PORT = '3000'
 
 [http_service]
   internal_port = 3000
