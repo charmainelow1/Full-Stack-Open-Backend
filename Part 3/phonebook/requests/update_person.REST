@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/persons/667ecfa9d796ccea2c099dd4
+content-type: application/json
+
+{
+    "name": "Pikachu", 
+    "number": "000000"
+}
